@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "getContent": "git clone https://github.com/aliefprihantoro/new-content.git --depth=1 contents",
-    "getRender": "git clone https://github.com/aliefprihantoro/new-content.git --depth=1 contents",
+    "getRender": "git clone https://github.com/aliefprihantoro/dist.git --depth=1 dist",
     "init": "concurrently \"pnpm getContent\" \"pnpm getRender\"",
     "build:assets": "pnpm --filter assets build",
     "build:tailwind": "CONTENT_TYPE=home tailwindcss -i ./assets/tailwind.css -o ./public/main.css",

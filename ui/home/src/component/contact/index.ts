@@ -4,15 +4,17 @@ import LIST_CONTACT from 'configs/data/home/listContact'
 import getIcon from 'assets/script/server/iconHtml'
 
 const HTML_LIST_CONTACT = () => {
-  const contentList = LIST_CONTACT.map(([name, username, icon]) => {
+  const contentList = LIST_CONTACT.map(([name, username, icon, href]) => {
     return html`
-      <div
-        class="tooltip before:-translate-x-3 my-1 capitalize font-Rokkit font-bold"
-        data-tip="${username}">
-        <button class="btn btn-sm md:btn-md rounded-lg">
-          ${getIcon(icon, name)}
-        </button>
-      </div>
+      <a href="${href}">
+        <div
+          class="tooltip before:-translate-x-3 my-1 capitalize font-Rokkit font-bold"
+          data-tip="${username}">
+          <button class="btn btn-sm md:btn-md rounded-lg">
+            ${getIcon(icon, name)}
+          </button>
+        </div>
+      </a>
     `
   })
   return contentList.join('')

@@ -1,9 +1,44 @@
 export default [
-  ['email', 'aliefprihantoro@gmail.com', '/icons/sosmed/email.svg'],
-  ['github', 'aliefprihantoro', '/icons/sosmed/github.svg'],
-  ['twitter', '@aliefprihantoro', '/icons/sosmed/twitter.svg'],
-  ['youtube', '@aliefprihantoro', '/icons/sosmed/youtube.svg'],
-  ['discord', 'discord', '/icons/sosmed/discord.svg'],
-  ['whatsapp', '+62 83829383123', '/icons/sosmed/whatsapp.svg'],
-  ['telegram', '@aliefprihantoro', '/icons/sosmed/telegram.svg'],
+  [
+    'email',
+    'aliefprihantoro@gmail.com',
+    '/icons/sosmed/email.svg',
+    'mailto:aliefprihantoro@gmail.com',
+  ],
+  [
+    'github',
+    'aliefprihantoro',
+    '/icons/sosmed/github.svg',
+    'https://github.com/aliefprihantoro',
+  ],
+  [
+    'twitter',
+    '@aliefprihantoro',
+    '/icons/sosmed/twitter.svg',
+    'https://x.com/aliefprihantoro',
+  ],
+  [
+    'youtube',
+    '@aliefprihantoro',
+    '/icons/sosmed/youtube.svg',
+    'https://youtube.com/@aliefprihantoro',
+  ],
+  [
+    'discord',
+    'MuryP',
+    '/icons/sosmed/discord.svg',
+    'https://discord.com/invite/EzHgpHquHC',
+  ],
+  [
+    'whatsapp',
+    '+62 83829383123',
+    '/icons/sosmed/whatsapp.svg',
+    'https://wa.me/6283829383123',
+  ],
+  [
+    'telegram',
+    '@aliefprihantoro',
+    '/icons/sosmed/telegram.svg',
+    'https://t.me/aliefprihantoro',
+  ],
 ]
